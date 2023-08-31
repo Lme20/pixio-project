@@ -12,6 +12,8 @@ public class CameraMovement : MonoBehaviour
         // Handle Keyboard Movement
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+        //float leftInput = Input.GetAxis("Left");
+        //float rightInput = Input.GetAxis("Right");
         Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput);
         transform.Translate(moveDirection * movementSpeed * Time.deltaTime);
 
