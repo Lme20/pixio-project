@@ -1,3 +1,4 @@
 {
-  "dotnet.defaultSolution": "Library/PackageCache/com.unity.remote-config@3.3.2/Nuget~/Nuget~.sln"
+  "dotnet.defaultSolution": "Library/PackageCache/com.unity.remote-config@3.3.2/Nuget~/Nuget~.sln",
+  "editor.acceptSuggestionOnEnter": "on"
 }
